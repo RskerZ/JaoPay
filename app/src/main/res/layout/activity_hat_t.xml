@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:background="#FFC9C9"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="411dp"
+        android:layout_height="550dp"
+
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:scrollbars="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/imageView10"
+                android:layout_width="373dp"
+                android:layout_height="304dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/hatt"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="383dp"
+                android:layout_height="wrap_content"
+                android:text="這次的設計和之前的風格截然不同，材質也是因人而異，毛毛的感覺有些人喜歡，有些人不喜歡。
+而帽T的圖案是「雲寶寶」配合太空人裝做出的完美結合，期許大家都可以找到並且爆發屬於自己的小宇宙。
+對於版型上和去年的相比略小，但是沒買過上次的人也沒關係，就和平常買衣服的時候一樣，選平常的SIZE就對了，然後這次的大學T著重在胸前的刺繡LOGO，帽T則是著重在袖子兩側的印刷。"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="400dp"
+                android:layout_height="433dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/hatt2"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="456dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="344dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="試穿心得：\n我穿的是帽T黑色L號，覺得材質普普，版型好像偏小件，然後這次的亮點絕對是那個外觀，尤其是手臂那邊一條的英文字，和之前的都不一樣，很酷。
+去年買過雲科T的我路過～～"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="900dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="97dp"
+            android:layout_height="52dp"
+            android:background="@drawable/btnstyle"
+            android:text="購  買"
+            android:layout_marginRight="40dp"
+            android:textSize="12pt"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="755dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="97dp"
+            android:layout_height="52dp"
+            android:background="@drawable/btnstyle"
+            android:text="返  回"
+            android:textSize="12pt"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="755dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:text="100W JaoPay幣 即刻擁有"
+        android:layout_marginTop="10dp"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="697dp" />
+</LinearLayout>

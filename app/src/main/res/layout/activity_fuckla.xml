@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:id="@+id/activity_test"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFC9C9"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="411dp"
+        android:layout_height="550dp"
+
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:scrollbars="vertical">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="380dp"
+                android:layout_height="258dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/fuckla2"
+                tools:layout_editor_absoluteX="23dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:gravity="center"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:text="有史以來速度最快\n動力最強的法拉利車型\n"
+                android:textSize="15pt"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="272dp" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="372dp"
+                android:layout_height="wrap_content"
+                android:text="每當法拉利決定研發一款全新車型時，首先需要面臨的挑戰便是如何不斷超越自身已取得的成就。\n\n而在設計這款全新的12缸發動機時，這項挑戰變得越發艱難。1947年，也就是70年前，正是一款全新的12缸發動機開啟了躍馬的輝煌傳奇。\n\n812 Superfast的誕生匯聚了法拉利頂尖工程設計與對賽道基因的精準把控。該車型旨在為駕駛員提供全方位的極致性能，以及最引人注目、創造無限可能的駕駛體驗。\n\n12 Superfast最大輸出功率達800 cv，相較於F12berlinetta高出60 cv，是有史以來性能最強、速度最快的公路版法拉利車型（搭載後置發動機的限量版12缸車型除外）。繼F12berlinetta與F12tdf所創造的輝煌傳奇，812 Superfast再次開啟了法拉利12缸跑車的新紀元。\n\n為充分展現跑車的完美性能，以及完美的車身重量配比，工程設計師們採用了一種創新型變速器工藝，在前置發動機上搭載了一款後置變速器。\n\n與此同時，它也是配備了電動助力轉向系統（EPS）的首款法拉利車型。\n"
+
+                tools:layout_editor_absoluteX="19dp"
+                tools:layout_editor_absoluteY="368dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="97dp"
+            android:layout_height="52dp"
+            android:background="@drawable/btnstyle"
+            android:text="購  買"
+            android:layout_marginRight="40dp"
+            android:textSize="12pt"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="755dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="97dp"
+            android:layout_height="52dp"
+            android:background="@drawable/btnstyle"
+            android:text="返  回"
+            android:textSize="12pt"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="755dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:text="100W JaoPay幣 即刻擁有"
+        android:layout_marginTop="10dp"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="697dp" />
+</LinearLayout>

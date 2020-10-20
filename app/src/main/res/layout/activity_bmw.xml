@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:background="#FFC9C9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="411dp"
+        android:layout_height="550dp"
+        android:background="#FFC9C9"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scrollbars="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="243dp"
+                app:srcCompat="@drawable/bmw"
+                tools:layout_editor_absoluteX="8dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="駕乘樂趣由此開始\n"
+                android:textSize="15pt"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="242dp" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="從底盤到車體結構，駕駛模組和輕量化結構的智慧結合，賦予BMW i3無與倫比的動態表現。BMW eDrive智慧型電能驅動科技讓BMW i3從0加速到時速100公里僅需7.3秒，一路順暢無礙。BMW i3s則更加快速，只要6.9秒就能衝刺破百。
+BMW i3的電動引擎可輸出170匹馬力和250牛頓米的最大扭力，最遠行駛距離可達310公里。Life模組是採用碳纖維複合材質的現代化車體結構。這種碳纖維材質不僅極為輕盈，韌度與強度更高於鋼材。輕量化和低重心的設計，大幅提升靈敏度和可行駛距離。"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="191dp"
+                app:srcCompat="@drawable/bmw2"
+                tools:layout_editor_absoluteY="485dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="全台公共充電站地圖一覽\n"
+                android:textSize="15pt"
+                tools:layout_editor_absoluteY="676dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="217dp"
+                app:srcCompat="@drawable/bmw3"
+                tools:layout_editor_absoluteY="730dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:background="#FFC9C9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="97dp"
+            android:layout_height="52dp"
+            android:background="@drawable/btnstyle"
+            android:text="購  買"
+            android:layout_marginRight="40dp"
+            android:textSize="12pt"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="755dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="97dp"
+            android:layout_height="52dp"
+            android:background="@drawable/btnstyle"
+            android:text="返  回"
+            android:textSize="12pt"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="755dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginTop="10dp"
+        android:text="100W JaoPay幣 即刻擁有"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="697dp" />
+
+</LinearLayout>
